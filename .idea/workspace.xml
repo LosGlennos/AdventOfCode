@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1635b29d-a636-4bf3-a004-fbd7446ccd99" name="Default Changelist" comment="" />
+    <list default="true" id="1635b29d-a636-4bf3-a004-fbd7446ccd99" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DayTwo/daytwo_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DayTwo/daytwo.go" beforeDir="false" afterPath="$PROJECT_DIR$/DayTwo/daytwo.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DayTwo/daytwo_tests.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,32 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DayOne/dayone.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DayOne/dayone_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
-              <folding>
-                <element signature="e#22#81#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+            <state relative-caret-position="235">
+              <caret line="25" column="50" lean-forward="true" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
               <folding>
                 <element signature="e#14#55#0" expanded="true" />
               </folding>
@@ -47,17 +33,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DayTwo/daytwo.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="144">
+              <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DayTwo/daytwo_tests.go">
+        <entry file="file://$PROJECT_DIR$/DayTwo/daytwo_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="14" selection-start-column="14" selection-end-column="14" />
+            <state relative-caret-position="490">
+              <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+              <folding>
+                <element signature="e#16#30#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,6 +61,9 @@
     </option>
   </component>
   <component name="GOROOT" path="C:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
   </component>
@@ -80,11 +72,11 @@
       <list>
         <option value="$PROJECT_DIR$/dayone.go" />
         <option value="$PROJECT_DIR$/dayone_test.go" />
-        <option value="$PROJECT_DIR$/DayTwo/daytwo.go" />
-        <option value="$PROJECT_DIR$/DayTwo/daytwo_tests.go" />
         <option value="$PROJECT_DIR$/DayOne/dayone_tests.go" />
         <option value="$PROJECT_DIR$/DayOne/dayone_test.go" />
         <option value="$PROJECT_DIR$/DayOne/dayone.go" />
+        <option value="$PROJECT_DIR$/DayTwo/daytwo_tests.go" />
+        <option value="$PROJECT_DIR$/DayTwo/daytwo.go" />
         <option value="$PROJECT_DIR$/main.go" />
       </list>
     </option>
@@ -95,6 +87,7 @@
     <option name="width" value="1937" />
     <option name="height" value="1176" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -113,6 +106,33 @@
               <item name="AdventOfCode" type="462c0819:PsiDirectoryNode" />
               <item name="DayOne" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="adventofcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdventOfCode" type="462c0819:PsiDirectoryNode" />
+              <item name="DayTwo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adventofcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="adventofcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Go SDK 1.12.7" type="20ee2d1f:SyntheticLibraryElementNode" />
+            </path>
+            <path>
+              <item name="adventofcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Go SDK 1.12.7" type="20ee2d1f:SyntheticLibraryElementNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adventofcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Go SDK 1.12.7" type="20ee2d1f:SyntheticLibraryElementNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="runtime" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -122,6 +142,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
@@ -156,25 +177,26 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestSolveRecursive_ShouldReturn966_WhenInputIs1969 in AdventOfCode/DayOne" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSolve_ShouldReturnCorrectResult_GivenFourthScenario in AdventOfCode/DayTwo" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="adventofcode" />
-      <working_directory value="$PROJECT_DIR$/DayOne" />
+      <working_directory value="$PROJECT_DIR$/DayTwo" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="AdventOfCode/DayOne" />
+      <package value="AdventOfCode/DayTwo" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^TestSolveRecursive_ShouldReturn966_WhenInputIs1969$" />
+      <pattern value="^TestSolve_ShouldReturnCorrectResult_GivenFourthScenario$" />
       <method v="2" />
     </configuration>
-    <configuration name="go test AdventOfCode" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSolve_ShouldReturnCorrectResult_GivenThirdScenario in AdventOfCode/DayTwo" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="adventofcode" />
-      <working_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$/DayTwo" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="AdventOfCode" />
+      <package value="AdventOfCode/DayTwo" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
+      <pattern value="^TestSolve_ShouldReturnCorrectResult_GivenThirdScenario$" />
       <method v="2" />
     </configuration>
     <configuration name="go test AdventOfCode/DayOne" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -187,12 +209,23 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go test AdventOfCode/DayTwo" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="adventofcode" />
+      <working_directory value="$PROJECT_DIR$/DayTwo" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="AdventOfCode/DayTwo" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Test.TestSolve_ShouldReturnCorrectResult_GivenThirdScenario in AdventOfCode/DayTwo" />
+        <item itemvalue="Go Test.TestSolve_ShouldReturnCorrectResult_GivenFourthScenario in AdventOfCode/DayTwo" />
+        <item itemvalue="Go Test.go test AdventOfCode/DayTwo" />
         <item itemvalue="Go Test.go test AdventOfCode/DayOne" />
-        <item itemvalue="Go Test.TestSolveRecursive_ShouldReturn966_WhenInputIs1969 in AdventOfCode/DayOne" />
-        <item itemvalue="Go Test.go test AdventOfCode" />
       </list>
     </recent_temporary>
   </component>
@@ -200,18 +233,6 @@
     <configuration />
   </component>
   <component name="TestHistory">
-    <history-entry file="go_test_AdventOfCode - 2019.12.04 at 12h 54m 45s.xml">
-      <configuration name="go test AdventOfCode" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestSolveRecursive_ShouldReturn966_WhenInputIs1969_in_AdventOfCode_DayOne - 2019.12.04 at 13h 27m 49s.xml">
-      <configuration name="TestSolveRecursive_ShouldReturn966_WhenInputIs1969 in AdventOfCode/DayOne" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestSolveRecursive_ShouldReturn966_WhenInputIs1969_in_AdventOfCode_DayOne - 2019.12.04 at 13h 29m 24s.xml">
-      <configuration name="TestSolveRecursive_ShouldReturn966_WhenInputIs1969 in AdventOfCode/DayOne" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestSolveRecursive_ShouldReturn966_WhenInputIs1969_in_AdventOfCode_DayOne - 2019.12.04 at 13h 29m 35s.xml">
-      <configuration name="TestSolveRecursive_ShouldReturn966_WhenInputIs1969 in AdventOfCode/DayOne" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="TestSolveRecursive_ShouldReturn966_WhenInputIs1969_in_AdventOfCode_DayOne - 2019.12.04 at 13h 30m 39s.xml">
       <configuration name="TestSolveRecursive_ShouldReturn966_WhenInputIs1969 in AdventOfCode/DayOne" configurationId="GoTestRunConfiguration" />
     </history-entry>
@@ -226,6 +247,21 @@
     </history-entry>
     <history-entry file="go_test_AdventOfCode_DayOne - 2019.12.04 at 13h 35m 09s.xml">
       <configuration name="go test AdventOfCode/DayOne" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="go_test_AdventOfCode_DayTwo - 2019.12.04 at 14h 30m 30s.xml">
+      <configuration name="go test AdventOfCode/DayTwo" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="go_test_AdventOfCode_DayTwo - 2019.12.04 at 14h 31m 11s.xml">
+      <configuration name="go test AdventOfCode/DayTwo" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSolve_ShouldReturnCorrectResult_GivenFourthScenario_in_AdventOfCode_DayTwo - 2019.12.04 at 14h 35m 23s.xml">
+      <configuration name="TestSolve_ShouldReturnCorrectResult_GivenFourthScenario in AdventOfCode/DayTwo" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSolve_ShouldReturnCorrectResult_GivenThirdScenario_in_AdventOfCode_DayTwo - 2019.12.04 at 14h 36m 57s.xml">
+      <configuration name="TestSolve_ShouldReturnCorrectResult_GivenThirdScenario in AdventOfCode/DayTwo" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSolve_ShouldReturnCorrectResult_GivenThirdScenario_in_AdventOfCode_DayTwo - 2019.12.04 at 15h 28m 58s.xml">
+      <configuration name="TestSolve_ShouldReturnCorrectResult_GivenThirdScenario in AdventOfCode/DayTwo" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -244,8 +280,8 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3297975" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39922854" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3297975" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39922854" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -263,21 +299,25 @@
     <integration-enabled>true</integration-enabled>
     <proxy>direct</proxy>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/DayTwo/daytwo_test.go</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/main.go</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DayTwo/daytwo.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DayTwo/daytwo_tests.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DayOne/dayone.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -295,10 +335,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/DayTwo/daytwo_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+          <folding>
+            <element signature="e#16#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DayTwo/daytwo.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/runtime/panic.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="689" selection-start-line="689" selection-end-line="689" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        <state relative-caret-position="235">
+          <caret line="25" column="50" lean-forward="true" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
           <folding>
             <element signature="e#14#55#0" expanded="true" />
           </folding>
