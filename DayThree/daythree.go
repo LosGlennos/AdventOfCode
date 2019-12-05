@@ -6,8 +6,9 @@ import (
 )
 
 type Walker struct {
-	Intersects      []Coordinate
-	Path            map[Coordinate]string
+	StepsTaken      map[string]int
+	Intersects      map[Coordinate]int
+	Path            map[Coordinate]Metadata
 	CurrentPosition Coordinate
 }
 
@@ -16,31 +17,54 @@ type Coordinate struct {
 	Y float64
 }
 
-func Solve(firstWire []string, secondWire []string) float64 {
+type Metadata struct {
+	Label string
+	Steps int
+}
+
+func Solve(firstWire []string, secondWire []string) (float64, int) {
 	walker := NewWalker()
 	walker.WalkWire(firstWire, "first")
 
-	walker.Intersects = []Coordinate{}
+	walker.Intersects = make(map[Coordinate]int)
 	walker.CurrentPosition = Coordinate{X: 0, Y: 0}
 	walker.WalkWire(secondWire, "second")
 
-	return GetShortestDistance(walker.GetIntersects())
+	shortestDistance := walker.GetShortestDistance()
+	steps := walker.GetLeastAmountOfSteps()
+
+	return shortestDistance, steps
 }
 
-func (w *Walker) GetIntersects() []Coordinate {
-	return w.Intersects
-}
+func (w *Walker) GetShortestDistance() float64 {
+	var shortestDistance float64
 
-func GetShortestDistance(intersects []Coordinate) float64 {
-	shortestDistance := distance(intersects[0])
+	for key := range w.Intersects {
+		distance := distance(key)
+		if shortestDistance == 0 {
+			shortestDistance = distance
+		}
 
-	for _, coordinate := range intersects {
-		distance := distance(coordinate)
 		if distance < shortestDistance {
 			shortestDistance = distance
 		}
 	}
 	return shortestDistance
+}
+
+func (w *Walker) GetLeastAmountOfSteps() int {
+	var steps int
+	for k, v := range w.Intersects {
+		if steps == 0 {
+			steps = v + w.Path[k].Steps
+		}
+
+		if (v + w.Path[k].Steps) < steps {
+			steps = v + w.Path[k].Steps
+		}
+	}
+
+	return steps
 }
 
 func distance(coordinate Coordinate) float64 {
@@ -71,18 +95,20 @@ func (w *Walker) WalkDirection(xOffset float64, yOffset float64, steps int, labe
 	for i := 0; i < steps; i++ {
 		w.CurrentPosition.Y += yOffset
 		w.CurrentPosition.X += xOffset
-		storedLabel, exists := w.Path[w.CurrentPosition]
-		if  exists && label != storedLabel {
-			w.Intersects = append(w.Intersects, w.CurrentPosition)
+		w.StepsTaken[label] += 1
+		metaData, exists := w.Path[w.CurrentPosition]
+		if exists && label != metaData.Label {
+			w.Intersects[w.CurrentPosition] = w.StepsTaken[label]
 		} else {
-			w.Path[w.CurrentPosition] = label
+			w.Path[w.CurrentPosition] = Metadata{Label: label, Steps: w.StepsTaken[label]}
 		}
 	}
 }
 
 func NewWalker() Walker {
 	return Walker{
-		Path:            make(map[Coordinate]string),
+		StepsTaken:      make(map[string]int),
+		Path:            make(map[Coordinate]Metadata),
 		CurrentPosition: Coordinate{X: 0, Y: 0},
 	}
 }
