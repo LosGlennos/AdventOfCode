@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1635b29d-a636-4bf3-a004-fbd7446ccd99" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/DayThree/daythree.go" beforeDir="false" afterPath="$PROJECT_DIR$/DayThree/daythree.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DayThree/daythree_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/DayThree/daythree_test.go" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,7 +31,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DayThree/daythree.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="211">
@@ -89,11 +88,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DayThree/daythree_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="9" column="82" selection-start-line="9" selection-start-column="82" selection-end-line="9" selection-end-column="82" />
+            <state relative-caret-position="240">
+              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -135,9 +134,9 @@
         <option value="$PROJECT_DIR$/DayTwo/daytwo.go" />
         <option value="$PROJECT_DIR$/DayThree/daythreev2.go" />
         <option value="$PROJECT_DIR$/DayTwo/daytwo_test.go" />
-        <option value="$PROJECT_DIR$/DayThree/daythree_test.go" />
         <option value="$PROJECT_DIR$/main.go" />
         <option value="$PROJECT_DIR$/DayThree/daythree.go" />
+        <option value="$PROJECT_DIR$/DayThree/daythree_test.go" />
       </list>
     </option>
   </component>
@@ -166,11 +165,6 @@
               <item name="AdventOfCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="AdventOfCode" type="462c0819:PsiDirectoryNode" />
               <item name="DayThree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AdventOfCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AdventOfCode" type="462c0819:PsiDirectoryNode" />
-              <item name="DayTwo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AdventOfCode" type="b2602c69:ProjectViewProjectNode" />
@@ -250,7 +244,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go">
+  <component name="RunManager" selected="Go Test.go test AdventOfCode/DayThree">
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="adventofcode" />
       <working_directory value="$PROJECT_DIR$" />
@@ -305,9 +299,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.go test AdventOfCode/DayThree" />
         <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Test.TestSolve_ShouldReturnCorrectResult_GivenFirstScenario in AdventOfCode/DayThree" />
-        <item itemvalue="Go Test.go test AdventOfCode/DayThree" />
         <item itemvalue="Go Test.TestSolve_ShouldReturnCorrectResult_GivenSixthScenario in AdventOfCode/DayThree" />
         <item itemvalue="Go Test.TestSolve_ShouldReturnCorrectResult_GivenSeventhScenario in AdventOfCode/DayThree" />
       </list>
@@ -317,9 +311,6 @@
     <configuration />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestSolve_ShouldReturnCorrectResult_GivenSecondScenario_in_AdventOfCode_DayThree - 2019.12.05 at 13h 46m 49s.xml">
-      <configuration name="TestSolve_ShouldReturnCorrectResult_GivenSecondScenario in AdventOfCode/DayThree" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="TestSolve_ShouldReturnCorrectResult_GivenThirdScenario_in_AdventOfCode_DayThree - 2019.12.05 at 13h 46m 56s.xml">
       <configuration name="TestSolve_ShouldReturnCorrectResult_GivenThirdScenario in AdventOfCode/DayThree" configurationId="GoTestRunConfiguration" />
     </history-entry>
@@ -346,6 +337,9 @@
     </history-entry>
     <history-entry file="TestSolve_ShouldReturnCorrectResult_GivenFirstScenario_in_AdventOfCode_DayThree - 2019.12.05 at 14h 01m 25s.xml">
       <configuration name="TestSolve_ShouldReturnCorrectResult_GivenFirstScenario in AdventOfCode/DayThree" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="go_test_AdventOfCode_DayThree - 2019.12.05 at 16h 10m 18s.xml">
+      <configuration name="go test AdventOfCode/DayThree" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -390,11 +384,6 @@
           <url>file://$PROJECT_DIR$/DayTwo/daytwo_test.go</url>
           <line>11</line>
           <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/main.go</url>
-          <line>18</line>
-          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -478,24 +467,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DayThree/daythree_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="82" selection-start-line="9" selection-start-column="82" selection-end-line="9" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DayTwo/daytwo_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="370">
           <caret line="28" column="76" selection-start-line="28" selection-end-line="33" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="18" column="79" lean-forward="true" selection-start-line="18" selection-start-column="79" selection-end-line="18" selection-end-column="79" />
         </state>
       </provider>
     </entry>
@@ -506,6 +481,20 @@
           <folding>
             <element signature="e#18#47#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="18" column="79" lean-forward="true" selection-start-line="18" selection-start-column="79" selection-end-line="18" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DayThree/daythree_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
         </state>
       </provider>
     </entry>
